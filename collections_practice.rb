@@ -32,7 +32,7 @@ end
 def find_a(array)
   array.select do |str|
     str.start_with?("a")
-  
+  end
 end
 
 def sum_array(array)
@@ -45,5 +45,4 @@ def add_s(array)
       "#{w}s"
     end
   end
-end
 end
